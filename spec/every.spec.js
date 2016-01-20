@@ -1,7 +1,7 @@
 var myCode = require('../every');
 
 describe('myCode', function () {
-  it('#allEven', function () {
+  xit('#allEven', function () {
     var goodInput = [2,4,10];
     expect(myCode.allEven(goodInput)).toBe(true);
 
@@ -32,7 +32,7 @@ describe('myCode', function () {
   it('#allSameVowels', function () {
     var goodInput = ['amalgam', 'zoom'];
     expect(myCode.allSameVowels(goodInput)).toBe(true);
-    
+
     var badInput = ['zoom', 'oligopoly'];
     expect(myCode.allSameVowels(badInput)).toBe(false);
   });
